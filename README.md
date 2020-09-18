@@ -14,6 +14,8 @@ This module requires the following modules/libraries:
 
 **NOTE**: The collection solution pack either requires that the [resource index](https://wiki.duraspace.org/display/FEDORA37/Resource+Index) is enabled in Fedora or you have the [Islandora Solr](https://github.com/islandora/islandora_solr_search) module installed to perform its queries.
 
+**NOTE**: After enabling the display of object metadata, it is possible that some metadata (e.g Description) will not display if the [Islandora Context](https://github.com/SFULibrary/islandora_context) module is not enabled.
+
 ## Installation
 
 Install as usual, see [this](https://drupal.org/documentation/install/modules-themes/modules-7) for further information.
